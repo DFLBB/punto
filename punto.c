@@ -14,6 +14,9 @@
 
 int main(void)
 {
-	write(1,".", 1);
-	return (0);
+	while(1)
+	{
+		write(1,".", 1);
+		return (0);
+	}
 }
