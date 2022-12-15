@@ -5,8 +5,8 @@ CC			=	gcc
 RM			=	rm -f
 CFLAGS		=	-Wall -Werror -Wextra
 
-all:	punto
-		@printf $(GREEN)" Punto compiled ✅\n"
+all:	$(PUNTO)
+		@printf "Punto compiled ✅\n"
 
-punto: 
+$(PUNTO):
 		$(CC) $(CFLAGS) $(PUNTO_SRC) -o $(PUNTO)
